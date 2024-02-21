@@ -69,6 +69,6 @@ button[1].addEventListener("click", function(){
         navigator.clipboard.writeText('border-radius: 0%');
     }
     else{
-        navigator.clipboard.writeText('border-radius: ' + copyText);
+        navigator.clipboard.writeText('border-radius: ' + copyText + ';');
     }
 })
