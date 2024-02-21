@@ -1,0 +1,102 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  height: 100%;
+  background-color: #121212;
+  color: #121212;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body h1 {
+  color: #FFF;
+}
+body div {
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 500px;
+  padding: 1em;
+  border-radius: 5%;
+}
+body div .preview {
+  padding: 0px;
+  width: 250px;
+  height: 250px;
+  background: rgb(0, 15, 115);
+  background: linear-gradient(45deg, rgb(0, 15, 115) 0%, rgb(102, 0, 156) 49%, rgb(255, 0, 0) 100%);
+  margin-bottom: 50px;
+  border-radius: 0%;
+}
+body div .configs {
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  max-height: 70px;
+  height: auto;
+}
+body div .configs input {
+  font-size: 16px;
+  color: #121212;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  padding: 1em 0.5em;
+  margin: 1em 0.5em;
+}
+body div .advanced {
+  display: none;
+  padding: 0px;
+  flex-direction: row;
+  height: auto;
+}
+body div .advanced input {
+  font-size: 16px;
+  color: #121212;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  padding: 1em 0.5em;
+  margin: 1em 0.5em;
+}
+body div .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body div .buttons .button {
+  padding: 0px;
+  display: flex;
+  align-items: flex-end;
+  width: auto;
+  height: auto;
+}
+body div .buttons .button button {
+  display: block;
+  background-color: transparent;
+  color: lightseagreen;
+  text-decoration: underline;
+  border: none;
+}
+body div .buttons .copy {
+  padding: 0px;
+  display: flex;
+  align-items: flex-start;
+  width: auto;
+  height: auto;
+}
+body div .buttons .copy button {
+  display: block;
+  background-color: transparent;
+  color: lightseagreen;
+  text-decoration: underline;
+  border: none;
+}/*# sourceMappingURL=border.css.map */
